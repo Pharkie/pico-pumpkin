@@ -207,7 +207,7 @@ def main():
         show_char(matrix_fonts.eyes['ghost1'], matrix_fonts.eyes['ghost2'])
         time.sleep(1)
         anim_runner(anims_JSON, "stareAndBlink", matrix_fonts.eyes)
-        scroll_message(matrix_fonts.textFont1, " Mark & Alice's Pumpkin ")
+        scroll_message(matrix_fonts.textFont1, " Frank's Pumpkin ")
 
         show_char(matrix_fonts.shapes['heart1'], matrix_fonts.shapes['heart2'])
         time.sleep(0.5)
@@ -220,8 +220,8 @@ def main():
         
         scroll_message(
             matrix_fonts.textFont1,
-            " Double, double toil and trouble; " +
-            "Fire burn and caldron bubble. ",
+            " Double, double toil and trouble" +
+            " Fire burn and caldron bubble ",
             0.03
         )
         
